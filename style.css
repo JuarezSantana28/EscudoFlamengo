@@ -1,0 +1,77 @@
+body {
+  margin: 50px;
+  background: white;
+}
+
+.circle {
+  margin-top: 10rem;
+  margin-left: 20rem;
+  right: 50px;
+  width: 450px;
+  height: 560px;
+  background-color: black;
+  border-color: black;
+  border-width: 15px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-style: groove;
+  box-shadow: rgba(0, 0, 0, 0.8);
+}
+
+.square {
+  position: absolute;
+  top: 175px;
+  margin-left: 21rem;
+  width: 208px;
+  height: 200px;
+  background-color: red;
+}
+
+.square2 {
+  position: absolute;
+  top: 240px;
+  margin-left: 35rem;
+  width: 230px;
+  height: 70px;
+  background-color: red;
+}
+
+.square3 {
+  position: absolute;
+  top: 400px;
+  margin-left: 21rem;
+  width: 450px;
+  height: 70px;
+  background-color: red;
+}
+
+.square4 {
+  position: absolute;
+  top: 530px;
+  margin-left: 21.5rem;
+  width: 430px;
+  height: 70px;
+  background-color: red;
+  /*border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;*/
+  clip-path: polygon(0% 0%, 3% 70%, 98% 75%, 100% 0%);
+}
+
+.square5 {
+  position: absolute;
+  top: 646px;
+  margin-left: 25rem;
+  width: 320px;
+  height: 65px;
+  background-color: red;
+
+  clip-path: polygon(0% 0%, 14% 85%, 82% 92%, 100% 0%);
+  border-bottom-left-radius: 600px;
+  border-bottom-right-radius: 600px;
+}
+
+.crf {
+  position: absolute;
+  left: 24.5rem;
+  top: 11.5rem;
+}
